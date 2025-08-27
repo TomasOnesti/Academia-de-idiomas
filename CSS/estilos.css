@@ -1,0 +1,57 @@
+/* 
+Color navbar: background: #00112F;
+background: linear-gradient(321deg, rgba(0, 17, 47, 1) 0%, rgba(20, 100, 246, 1) 100%);
+
+
+*/
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.contener{
+    background: #00112F;
+    background: linear-gradient(321deg, rgba(0, 17, 47, 1) 0%, rgba(20, 100, 246, 1) 100%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.boton_nav{
+    width: 10rem;
+    height: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #29323D;
+    position: relative;
+    right: 4rem;
+}
+
+.cont_text_nav{
+    display: flex;
+    align-items: center;
+    position: relative;
+    left: 20rem;
+}
+
+.vinculo{
+    text-decoration: none;
+    list-style: none;
+}
+
+.margen_nav{
+    margin-left: 30px;
+}
+
+.texto_nav{
+    font-size: 15px;
+    color: white;
+}
+
+.logo{
+    width: 6rem;
+    margin:5;
+    position: relative;
+    left: 3rem;
+}
