@@ -2,6 +2,8 @@
 Color navbar: background: #00112F;
 background: linear-gradient(321deg, rgba(0, 17, 47, 1) 0%, rgba(20, 100, 246, 1) 100%);
 
+color primer seccion: background: #00050C;
+background: linear-gradient(204deg, rgba(0, 5, 12, 1) 0%, rgba(0, 63, 149, 1) 100%);
 
 */
 
@@ -9,6 +11,9 @@ background: linear-gradient(321deg, rgba(0, 17, 47, 1) 0%, rgba(20, 100, 246, 1)
     margin: 0%;
     padding: 0%;
 }
+
+/*Navbar-Header*/
+
 .contener{
     background: #00112F;
     background: linear-gradient(321deg, rgba(0, 17, 47, 1) 0%, rgba(20, 100, 246, 1) 100%);
@@ -55,3 +60,14 @@ background: linear-gradient(321deg, rgba(0, 17, 47, 1) 0%, rgba(20, 100, 246, 1)
     position: relative;
     left: 3rem;
 }
+
+/*Main*/
+/*Seccion*/
+.seccion_uno{
+    display: grid;
+    grid-template-columns: 2fr;
+}
+
+
+
+
