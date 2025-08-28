@@ -6,28 +6,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hair Salon | Login</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
-    <link rel="stylesheet" href="./css/login.css">
+    <link rel="stylesheet" href="../css/login.css">
 </head>
 
 <body>
     <div class="container" id="container">
         <div class="form-container sign-up">
             <form action="../php/procesar_registro.php" method="POST">
-                <h1>Iniciar sesion</h1>
-                <div class="social-icons">
-                    <a href="#" class="icon"><i class="fa-brands fa-google-plus-g"></i></a>
-                    <a href="#" class="icon"><i class="fa-brands fa-facebook-f"></i></a>
-                    <a href="#" class="icon"><i class="fa-brands fa-github"></i></a>
-                    <a href="#" class="icon"><i class="fa-brands fa-linkedin-in"></i></a>
-                </div>
-                <span>o usá tu email para ingresar</span>
-                <input type="email" name="email" placeholder="Email" required>
-                <input type="password" name="password" placeholder="Contraseña" required  >                    <a href="#" class="icon"><i class="fa-brands fa-google-plus-g"></i></a>
+    <h1>Iniciar sesión</h1>
 
-                <button type="submit">Registrarse</button>
-                <h2>No tenes cuenta?<a href="./Registro.html">create una</a></h2>
+    <div class="social-icons">
+        <a href="#" class="icon"><i class="fa-brands fa-google-plus-g"></i></a>
+        <a href="#" class="icon"><i class="fa-brands fa-facebook-f"></i></a>
+        <a href="#" class="icon"><i class="fa-brands fa-github"></i></a>
+        <a href="#" class="icon"><i class="fa-brands fa-linkedin-in"></i></a>
+    </div>
 
-            </form>
+    <div class="input-group">
+        <span>Gmail</span>
+        <input type="email" name="email" placeholder="Email" required>
+    </div>
+
+    <div class="input-group">
+        <span>Contraseña</span>
+        <input type="password" name="password" placeholder="Contraseña" required>
+    </div>
+    <div class="googleo">
+     <button type="submit">Iniciar sesion</button>
+    <a href=""><button type="submit"><i class="fa-brands fa-google-plus-g"></i>Iniciar sesion con google</button></a>
+    </div>
+
+
+
+    <h2>No tenés cuenta? <a href="./Registro.html">Creá una</a></h2>
+</form>
         </div>
 
     </div>

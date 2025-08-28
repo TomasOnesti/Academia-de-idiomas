@@ -7,26 +7,17 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-}
+} 
 .container {
   background: linear-gradient(321deg, #2C4DFF 0%, #010135 100%);
   border-radius: 15px;
-  padding: 40px;
-  width: 20%;
-  max-width: 900px;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  height: 600px;
+  display: grid;
+  grid-template-columns: 1fr, 1fr;
+  gap: 200px;
+  
 }
 input {
   border: 1px solid #fff ;
-  border-radius: 8px;
-  padding: 12px;
-  margin: 10px 0;
-  width: 100%;
-  color: #fff;
-  font-size: 16px;
 }
 
 input::placeholder {
@@ -70,7 +61,7 @@ button:hover {
   text-align: left;
   width: 100%;
   margin-bottom: 15px;
-}
+}   
 
 .input-group span {
   display: block;
