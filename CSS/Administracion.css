@@ -23,7 +23,7 @@ header {
 }
 
 .logo {
-    height: 60px;
+    height: 50px;
 }
 
 .nav-bar-superior ul {
@@ -37,6 +37,10 @@ header {
     color: white;
     font-weight: bold;
     transition: 0.3s;
+}
+
+.nav-bar-superior a:hover {
+    color: #ffd700;
 }
 
 .avatar {
