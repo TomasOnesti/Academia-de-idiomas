@@ -1,88 +1,89 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Academia de Idiomas</title>
+    <link rel="stylesheet" href="../CSS/Alumnos.css">
 </head>
-<header>
-    <div>
-        <img src="../Img/logo_academia_idiomas.png" alt="">
-        <nav class="nav-bar-superior">
-            <ul>
-                <li>Inicio</li>
-                <li>Idiomas</li>
-                <li>Nosotros</li>
-            </ul>
-        </nav>
-        <a href=""><img src="../Img/Avatar.png" alt=""></a> <!--Avatar para cerrar sesion-->
-    </div>
-</header>
 <body>
-    <div>
-        <h2>Bienvenido</h2>
-        <img src="" alt="">
-        <a href=""><div><h2>Inscribirse a un nuevo curso</h2></div></a>
-        <div class="tarjetas">
-            <img src="../Img/Ingles-britanico.png" alt="">
-            <div class="tarjeta-info">
-                <h2>Ingles britanico</h2>
-                <p></p>
-                <a href=""></a>
+    <header>
+        <div class="header-container">
+            <img src="../Img/logo_academia_idiomas.png" alt="Logo Academia" class="logo">
+            <nav class="nav-bar-superior">
+                <ul>
+                    <li><a href="#">Inicio</a></li>
+                    <li><a href="#">Idiomas</a></li>
+                    <li><a href="#">Contacto</a></li>
+                </ul>
+            </nav>
+            <a href="#"><img src="../Img/Avatar.png" alt="Avatar usuario" class="avatar"></a>
+        </div>
+    </header>
+
+    <main>
+        <section class="bienvenida flex-seccion">
+            <div class="texto">
+                <h2>Bienvenido a la Academia de Idiomas</h2>
+                <p>Tu lugar para aprender y perfeccionar idiomas de manera fácil y accesible. 
+                Contamos con clases virtuales y presenciales adaptadas a tus necesidades.</p>
             </div>
-        </div>
-        <div class="tarjetas">
-            <img src="../Img/Italiano.jpg" alt="">
-            <div class="tarjeta-info">
-                <h2>Italiano</h2>
-                <p></p>
-                <a href=""></a>
+            <div class="imagen">
+                <img src="../Img/Bienvenida.png" alt="Imagen de bienvenida">
             </div>
-        </div>
-        <div class="tarjetas">
-            <img src="../Img/Aleman.png" alt="">
-            <div class="tarjeta-info">
-                <h2>Aleman</h2>
-                <p></p>
-                <a href=""></a>
-            </div>
-        </div>
-        <div class="tarjetas">
-            <img src="../Img/Frances.png" alt="">
-            <div class="tarjeta-info">
-                <h2>Frances</h2>
-                <p></p>
-                <a href=""></a>
-            </div>
-        </div>
-        <img src="" alt="">
-        <div>
-            <h2>Beneficios</h2>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsum nemo qui vero sit delectus ducimus dolor, quae optio sequi est iusto eos, odio quasi voluptatem quas obcaecati deleniti facere ex.</p>
-        </div>
-        <img src="" alt="">
-        <div>
-            <h2>Oportunidad</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus animi error ullam praesentium. Veniam ullam laudantium asperiores ipsam est aut ex! Sunt fugiat error eveniet itaque, voluptatibus similique quis unde?</p>
-        </div>
-        <img src="" alt="">
-        <div>
-            <h2>Abrir tu mente</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam harum totam voluptatibus eligendi commodi voluptates consectetur amet perferendis! Consectetur aut enim rerum quos odit facilis. Ipsum eligendi aspernatur error odit.</p>
-        </div>
-        <div>
-            <h2>Ingresa a tu/s cursos</h2>   <!--Tarjetas-boton para acceder a los cursos-->
-            <a href="">
-                <div class="tarjetas">
-                    <img src="" alt="">
-                    <div class="tarjeta-info">
-                        <h2>Frances</h2>
-                        <p></p>
-                        <a href=""></a>
-                    </div>
+        </section>
+
+        <section class="idiomas">
+            <h2>Idiomas disponibles</h2>
+            <div class="tarjetas-container">
+                <div class="tarjeta">
+                    <img src="../Img/eeuu.png" alt="Inglés británico">
+                    <h3>Inglés</h3>
+                    <p>Curso desde nivel básico hasta avanzado.</p>
                 </div>
-            </a>
-        </div>
-    </div>
+                <div class="tarjeta">
+                    <img src="../Img/italia.png" alt="Italiano">
+                    <h3>Italiano</h3>
+                    <p>Descubre la lengua y la cultura italiana.</p>
+                </div>
+                <div class="tarjeta">
+                    <img src="../Img/alemania.png" alt="Alemán">
+                    <h3>Alemán</h3>
+                    <p>Aprende alemán con docentes nativos.</p>
+                </div>
+                <div class="tarjeta">
+                    <img src="../Img/francia.png" alt="Francés">
+                    <h3>Francés</h3>
+                    <p>Estudia el idioma del arte y la moda.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="beneficios flex-seccion">
+            <div class="imagen">
+                <img src="../Img/Beneficios.png" alt="Beneficios">
+            </div>
+            <div class="texto">
+                <h2>Beneficios</h2>
+                <p>Estudia desde cualquier lugar y accede a clases virtuales o presenciales en nuestras sedes. 
+                Amplía tus oportunidades profesionales y personales con el idioma que elijas.</p>
+            </div>
+        </section>
+
+        <section class="suscritos">
+            <h2>Mis cursos</h2>
+            <div class="tarjetas-container">
+                <div class="tarjeta">
+                    <img src="../Img/francia.png" alt="Francés">
+                    <h3>Francés</h3>
+                    <p>Actualmente cursando - Nivel Intermedio</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2025 Academia de Idiomas | Contacto: info@academiaidiomas.com</p>
+    </footer>
 </body>
 </html>
