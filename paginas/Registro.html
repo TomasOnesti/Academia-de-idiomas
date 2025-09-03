@@ -10,32 +10,52 @@
 </head>
 
 <body>
-    <div class="container" id="container">
-        <!-- Registro -->
-        <div class="form-container sign-up">
-            <form action="../php/procesar_registro.php" method="POST">
-                <h1>Crear cuenta</h1>
-                <span>Gmail</span>
-                <input type="email" name="email" placeholder="Email" required>
-                <span>Gmail</span>
-                <input type="text" name="nombre" placeholder="Nombre" required> 
-                <span>Gmail</span>
-                <input type="password" name="password" placeholder="Contraseña" required>
-                <span>Gmail</span>
-                <input type="number" name="DNI" placeholder="DNI" required>
-                <span>Gmail</span>
-                <input type="text" name="telefono" placeholder="Teléfono" required>
-                <span>Gmail</span>
-                <input type="date" name="date" placeholder="Fecha de nacimiento" required>
-                <span>Gmail</span>
-                <input type="text" name="texto" placeholder="Sufre alguna discapacidad?" required>
-                
-                <button type="submit">Registrarse</button>
-            </form>
-        </div>
+  <div class="container" id="container">
+    <h1 class="titulo">Crear cuenta</h1> 
 
+    <div class="form-container sign-up">
+      <form action="../php/procesar_registro.php" method="POST" class="grid-form">
+        <div><span>Email</span><input type="email" name="email" placeholder="Email" required></div>
+        <div><span>Nombre Completo</span><input type="text" name="nombre" placeholder="Nombre" required></div>
+        <div><span>Número DNI</span><input type="number" name="DNI" placeholder="DNI" required></div>
+
+        <div><span>Contraseña</span><input type="password" name="password" placeholder="Contraseña" required></div>
+        <div><span>Teléfono</span><input type="text" name="telefono" placeholder="Teléfono" required></div>
+        <div><span>Fecha de nacimiento</span><input type="date" name="date" required></div>
+
+      <div class="full-width">
+  <label for="condicion">¿Sufre alguna condición?</label>
+  <select name="condicion" id="condicion" required>
+    <option value="">Seleccionar</option>
+    <option value="si">Sí</option>
+    <option value="no">No</option>
+  </select>
+</div>
+<!--
+<div class="full-width" id="detalle-condicion" style="display: none;">
+  <label for="tipo-condicion">¿Cuál?</label>
+  <select name="tipo-condicion" id="tipo-condicion">
+    <option value="">Seleccionar tipo</option>
+    <option value="mal-vista">Mal vista</option>
+    <option value="sordo">Sordo</option>
+    <option value="ciego">Ciego</option>
+    <option value="retraso">Retraso</option>
+    <option value="otro">Otro</option>
+  </select>
+</div>
+-->
+
+        <div class="full-width">
+  <button type="submit">Registrarse</button>
+</div>
+
+<h2 class="login-link">
+  ¿Ya tienes una cuenta?
+  <a href="login.html">Inicia sesión aquí.</a>
+</h2>
+
+      </form>
     </div>
-
-    <script src="js/login.js"></script>
+  </div>
 </body>
 </html>
