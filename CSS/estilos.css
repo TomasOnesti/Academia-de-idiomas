@@ -3,8 +3,7 @@ Color navbar: background: #00112F;
 background: linear-gradient(321deg, rgba(0, 17, 47, 1) 0%, rgba(20, 100, 246, 1) 100%);
 
 color primer seccion: background: #00050C;
-background: linear-gradient(204deg, rgba(0, 5, 12, 1) 0%, rgba(0, 63, 149, 1) 100%);
-
+    background: linear-gradient(204deg, rgba(0, 5, 12, 1) 0%, rgba(0, 63, 149, 1) 100%);
 */
 
 *{
@@ -13,6 +12,11 @@ background: linear-gradient(204deg, rgba(0, 5, 12, 1) 0%, rgba(0, 63, 149, 1) 10
 }
 
 /*Navbar-Header*/
+
+header{
+    position: sticky;
+    top: 0;
+}
 
 .contener{
     background: #00112F;
@@ -37,7 +41,7 @@ background: linear-gradient(204deg, rgba(0, 5, 12, 1) 0%, rgba(0, 63, 149, 1) 10
     display: flex;
     align-items: center;
     position: relative;
-    left: 20rem;
+    left: 10rem;
 }
 
 .vinculo{
@@ -63,11 +67,159 @@ background: linear-gradient(204deg, rgba(0, 5, 12, 1) 0%, rgba(0, 63, 149, 1) 10
 
 /*Main*/
 /*Seccion*/
-.seccion_uno{
+.seccion{
     display: grid;
-    grid-template-columns: 2fr;
+    grid-template-columns: repeat(2,1fr);
+    background: #00050C;
+    background: linear-gradient(204deg, rgba(0, 5, 12, 1) 0%, rgba(0, 63, 149, 1) 100%);
+}
+
+.img{
+    width: 30rem;
+    padding: 20px;
+    border-radius: 8rem;
+}
+
+.cont_img{
+    margin: 20px;
+}
+
+.subtitulo{
+    font-size: 2rem;
+    color: white;
+    margin: 15px;
+    
+}
+
+.cont_text{
+    margin: 60px;
+}
+
+.texto{
+    font-size: 1.2rem;
+    color: white;
+    margin-left: 30px;
+}
+
+.boton{
+    background-color: white;
+    color: black;
+    font-size: 1.1rem;
+    align-items: center;
+    justify-items: center;
+    border: black solid 1px;
+    border-radius: 20px;
+    padding: 10px;
+    padding-left: 60px;
+    padding-right: 60px;
+    margin: 15px;
+}
+
+.boton:active{
+    box-shadow: 2px 2px 5px 3px rgba(0, 5, 12, 1);
+    transition: 3ms;
+    background-color: rgba(133, 127, 127, 0.733);
+}
+
+.linea{
+    height: 4px;
+    background: 
+        linear-gradient(to right,white,white);
+    border: none;
+}
+
+.seccion2{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    background: #00112F;
+    background: linear-gradient(321deg, rgba(0, 17, 47, 1) 0%, rgba(20, 100, 246, 1) 100%);
+}
+
+.mini{
+    font-size: 0.8rem;
+    color: white;
+    margin: 10px;
+    margin-left: 65px;
 }
 
 
+.cont_img_2{
+    margin: 20px;
+}
 
 
+.cont_text_2{
+    margin: 80px;
+    padding: 20px;
+}
+
+.seccion3{
+    background: #00112F;
+    background: linear-gradient(321deg, rgba(0, 17, 47, 1) 0%, rgba(20, 100, 246, 1) 100%);
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.contenedor{
+    display: grid;
+    grid-template-columns: repeat(2,2fr);
+}
+.texto_2{
+    font-size: 1.2rem;
+    color: white;
+    margin: 20px;
+}
+
+.seccion4{
+    background: #00112F;
+    background: linear-gradient(321deg, rgba(0, 17, 47, 1) 0%, rgba(20, 100, 246, 1) 100%);
+    padding: 30px;
+}
+
+.cont_img_3{
+    display: grid;
+    grid-template-columns: repeat(2,2fr);
+}
+
+.posicion{
+    display: flex;
+    justify-content: center;
+}
+
+.imgb{
+    width: 14rem;
+    margin: 40px;
+}
+.top{
+    position: relative;
+    bottom: 35px;
+}
+
+.top2{
+    position: relative;
+    bottom: 60px;
+}
+
+.top3{
+    position: relative;
+    bottom: 70px;
+}
+
+.sub-text{
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+/*Footer*/
+
+.fondo_piedepagina{
+    background: #00112F;
+    background: linear-gradient(321deg, rgba(0, 17, 47, 1) 0%, rgba(20, 100, 246, 1) 100%);
+}
+
+.subt_footer{
+    font-size: 2rem;
+    color: #DACAFB;
+}
