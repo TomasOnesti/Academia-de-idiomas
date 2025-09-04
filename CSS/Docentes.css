@@ -53,7 +53,14 @@ main {
     padding: 30px;
 }
 
+h1 {
+    font-size: 45px;
+    margin-bottom: 15px;
+    color: #ffffff;
+}
+
 h2 {
+    text-align: center;
     margin-bottom: 15px;
     color: #ffd700;
 }
@@ -79,6 +86,7 @@ p {
     flex: 1;
 }
 
+
 .flex-seccion .imagen {
     flex: 1;
     text-align: center;
@@ -96,6 +104,11 @@ p {
     gap: 20px;
 }
 
+.tarjetas_container2 {
+    display: flex;
+    justify-content: center;
+}
+
 .tarjeta {
     background: rgba(255,255,255,0.1);
     padding: 15px;
@@ -106,8 +119,13 @@ p {
     color: #fff;
 }
 
+.tarjeta p {
+    font-size: 18px;
+    margin-top: 15px;
+}
+
 .tarjeta img {
-    width: 100%;
+    width: 200px;
     height: 140px;
     object-fit: cover;
     border-radius: 8px;
@@ -116,6 +134,27 @@ p {
 
 .tarjeta:hover {
     transform: translateY(-5px);
+}
+
+.texto p {
+    font-size: 17px;
+}
+
+.accionesprofesor {
+    background: #18181B;
+    width: 21rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 4px rgba(0,0,0,0.3);
+    text-align: center;
+    color: #fff;
+}
+.accionesprofesor p{
+    margin-top: 15px;
+    font-size: 15px;
+}
+
+.accionesprofesor img{
+    width: 7rem;
 }
 
 footer {
@@ -128,3 +167,35 @@ footer {
 }
 
 
+.tarjeta2 {
+    background: rgba(255,255,255,0.1);
+    padding: 15px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3); 
+    color: #fff;
+    display: grid;
+    grid-template-columns: repeat(3,2fr);
+    gap: 40px;
+}
+.suscritos{
+    margin-top: 80px;
+}
+.center{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.botonclassroom{
+    text-decoration: none;
+    color: white;
+    padding: 1rem;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: green;
+    transition: transform 0.2s;
+}
+
+.botonclassroom:hover {
+    transform: translateY(-5px);
+}
