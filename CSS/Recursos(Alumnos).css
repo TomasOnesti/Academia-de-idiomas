@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    min-height: 100vh;
+    background: url("../img/fondoverdeagua.png") repeat;
+    background-size: auto;
+    color: #fff;
+}
+
+.main-content {
+    flex: 1;
+    padding: 20px;
+}
+
+.cards {
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.card {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    background: rgba(26, 31, 61, 0.9);
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+    transition: transform 0.2s;
+    backdrop-filter: blur(5px);
+    min-height: 160px;
+}
+
+.card2 {
+    background: rgba(26, 31, 61, 0.9);
+    padding: 15px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+    transition: transform 0.2s;
+    backdrop-filter: blur(5px);
+    min-height: 5px;
+}
+
+.card3{
+    display: flex;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.card h3 {
+    text-align: center;
+    color: #ffcc00;
+    margin-bottom: 10px;
+    display: flex;
+}
+
+.card h2 {
+    text-align: center;
+    color: #ffcc00;
+    margin-bottom: 10px;
+}

@@ -23,7 +23,7 @@ header {
 }
 
 .logo {
-    height: 60px;
+    height: 50px;
 }
 
 .nav-bar-superior ul {
@@ -37,6 +37,10 @@ header {
     color: white;
     font-weight: bold;
     transition: 0.3s;
+}
+
+.nav-bar-superior a:hover {
+    color: #ffd700;
 }
 
 .avatar {
@@ -65,7 +69,6 @@ p {
     gap: 30px;
     margin-bottom: 40px;
     background: rgba(255,255,255,0.05);
-    margin-top: 30px;
     padding: 20px;
     border-radius: 12px;
     box-shadow: 0 4px 8px rgba(0,0,0,0.3);
