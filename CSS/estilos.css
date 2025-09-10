@@ -33,16 +33,14 @@ header{
     align-items: center;
     justify-content: center;
     background-color: #29323D;
-    position: relative;
-    right: 4rem;
     font-family: Arial, sans-serif;
+    margin-right: 4rem;
 }
 
 .cont_text_nav{
     display: flex;
     align-items: center;
-    position: relative;
-    left: 10rem;
+    margin-left: 8rem;
 }
 
 .vinculo{
@@ -248,4 +246,67 @@ header{
     font-family: Arial, sans-serif;
     text-align: center; 
     font-size: 14px; 
+}
+
+/*Buscador*/
+
+.fondo{
+    background: #00050C;
+    background: linear-gradient(281deg, rgba(0, 5, 12, 1) 0%, rgba(0, 63, 149, 1) 100%);
+}
+
+.container{
+    background-color: #1464F6;
+    font-size: 2rem;
+    color: white;
+    text-align: center;
+    margin: 3rem;
+    padding: 8px;
+    border-radius: 1rem;
+}
+
+.marca{
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.marca2{
+    font-size: 1rem;
+}
+
+.ver{
+    display: none;
+}
+
+.form-select {
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.container2{
+    background-color: #1464F6;
+    font-size: 2rem;
+    color: white;
+    text-align: center;
+    margin: 3rem;
+    padding: 8px;
+    border-radius: 1rem;
+    width: auto;
+}
+
+label {
+    display: flex;
+    
+    font-size: 1rem;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.buscador{
+    border-radius: 10px;
+    background-color: #29323D;
+    color: white;
+    border: 1px solid #7C4DFF;
+    font-size: 1rem;
+    padding: 10px;
 }

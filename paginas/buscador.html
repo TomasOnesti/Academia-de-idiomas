@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Academia de idiomas</title>
+    <link rel="icon" type="image/png" href="./Img/favicon.png">
+    <link rel="stylesheet" href="../CSS/estilos.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.min.js" integrity="sha384-G/EV+4j2dNv+tEPo3++6LCgdCROaejBqfUeNjuKAiuXbjrxilcCdDz6ZAVfHWe1Y" crossorigin="anonymous"></script>
+</head>
+<body class="fondo">
+    <header>
+        <nav class="contener">
+            <img class="logo" src="../Img/logo_academia_idiomas.png" alt="Logo">
+            <div class="cont_text_nav">
+                <a href="./index.html" class="vinculo"><p class="texto_nav margen_nav">Inicio</p></a>
+                <a href="" class="vinculo"><p class="texto_nav margen_nav">Idiomas</p></a>
+                <a href="" class="vinculo"><p class="texto_nav margen_nav">Nosotros</p></a>
+                <a href="" class="vinculo"><p class="texto_nav margen_nav">Contacto</p></a>     
+            </div>
+            <button class="boton_nav"><a class="vinculo texto_nav" href="./paginas/Login.html">Iniciar Sesion</a></button>
+        </nav>
+    </header>
+
+    <main>   
+      <div class="container py-4">
+            <h3 class="text-center mb-4">Encontrá tu curso</h3>
+            <form>
+                <div class="row g-3">
+                    <div class="col-md-6">
+                        <label for="fecha" class="form-label">Fecha de comienzo</label>
+                        <div class="input-group">
+                            <span class="input-group-text"><i class="bi bi-calendar"></i></span>
+                            <input type="month" class="form-control" id="fecha">
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <label for="curso" class="form-label">Curso</label>
+                        <select class="form-select" id="curso">
+                            <option selected>Seleccione el tipo de curso</option>
+                            <option selected>Seleccione el tipo de curso</option>
+                            <option selected>Seleccione el tipo de curso</option>
+                        </select>
+                    </div>
+
+                    <div class="col-md-6">
+                        <label for="idioma" class="form-label">Idioma</label>
+                        <div class="input-group">
+                            <span class="input-group-text"><i class="bi bi-translate"></i></span>
+                            <select class="form-select" id="idioma">
+                                <option selected>Seleccione un idioma</option>
+                                <option selected>Seleccione un idioma</option>
+                                <option selected>Seleccione un idioma</option>
+                                <option selected>Seleccione un idioma</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6">
+                        <label for="modalidad" class="form-label">Modalidad</label>
+                        <select class="form-select" id="modalidad">
+                            <option selected>Elija la modalidad del curso</option>
+                            <option selected>Elija la modalidad del curso</option>
+                        </select>
+                    </div>
+
+                    <div class="col-md-6">
+                        <label for="nivelacion" class="form-label">Nivelación</label>
+                        <select class="form-select" id="nivelacion">
+                            <option selected>Seleccione su nivelación</option>
+                            <option selected>Seleccione su nivelación</option>
+                            <option selected>Seleccione su nivelación</option>
+                            <option selected>Seleccione su nivelación</option>
+                        </select>
+                    </div>
+
+                    <div class="col-md-6">
+                        <label for="sede" class="form-label">Sede (en caso de elegir presencial)</label>
+                        <select class="form-select" id="sede">
+                            <option selected>Seleccione la sede</option>
+                            <option selected>Seleccione la sede</option>
+                            <option selected>Seleccione la sede</option>
+                        </select>
+                    </div>
+                    <div class="col-12 text-center mt-3">
+                        <button class="buscador">
+                            Buscar curso
+                        </button>
+                    </div>
+                </div>
+            </form>
+        </div>
+
+
+        <div class="container ver">
+            <div class="titulo_tabla">
+                Detalles de cursos
+            </div>
+            <table class="table">
+                <thead class="table-light marca">
+                    <tr>
+                        <td class="table-light">Cursada</td>
+                        <td class="table-light">Sede</td>
+                        <td class="table-light">Nivel</td>
+                        <td class="table-light">Dia de cursada</td>
+                        <td class="table-light">Valor</td>
+                        <td class="table-light">Horarios</td>
+                    </tr>
+                </thead>
+                <thead class="table-light marca2">
+                    <tr>
+                        <td class="table-light">Agosto 18 hasta marso 28</td>
+                        <td class="table-light">Belgrano</td>
+                        <td class="table-light">A1 inferior</td>
+                        <td class="table-light">Lun, Jue.</td>
+                        <td class="table-light">15000$</td>
+                        <td class="table-light">12 - 17Hs</td>
+                    </tr>
+                </thead>
+                <thead class="table-light marca2">
+                    <tr>
+                        <td class="table-light">Agosto 18 hasta marso 28</td>
+                        <td class="table-light">Belgrano</td>
+                        <td class="table-light">A1 inferior</td>
+                        <td class="table-light">Lun, Jue.</td>
+                        <td class="table-light">15000$</td>
+                        <td class="table-light">12 - 17Hs</td>
+                    </tr>
+                </thead>
+                <thead class="table-light marca2">
+                    <tr>
+                        <td class="table-light">Agosto 18 hasta marso 28</td>
+                        <td class="table-light">Belgrano</td>
+                        <td class="table-light">A1 inferior</td>
+                        <td class="table-light">Lun, Jue.</td>
+                        <td class="table-light">15000$</td>
+                        <td class="table-light">12 - 17Hs</td>
+                    </tr>
+                </thead>
+                <thead class="table-light marca2">
+                    <tr>
+                        <td class="table-light">Agosto 18 hasta marzo 28</td>
+                        <td class="table-light">Belgrano</td>
+                        <td class="table-light">A2 inferior</td>
+                        <td class="table-light">Lun, Jue.</td>
+                        <td class="table-light">15000$</td>
+                        <td class="table-light">12 - 17Hs</td>
+                    </tr>
+                </thead>
+            </table>
+        </div>
+    </main>
+</body>
+</html>
