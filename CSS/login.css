@@ -12,14 +12,13 @@ body {
   align-items: center;
   height: 100vh;
   color: #fff;
-  padding: 20px;
 }
 
 .container {
   background-color: rgba(0, 0, 0, 0.6);
   padding: 40px;
   border-radius: 12px;
-  box-shadow: 0 0 25px rgba(44, 77, 255, 0.5);
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.5);
   width: 100%;
   max-width: 400px;      
   backdrop-filter: blur(8px);
@@ -56,14 +55,6 @@ body {
   transition: box-shadow 0.3s ease;
 }
 
-.input-group input:focus {
-  outline: none;
-  box-shadow: 0 0 8px #2C4DFF;
-}
-
-.input-group input::placeholder {
-  color: #a0b3cc;
-}
 
 button[type="submit"] {
   width: 100%;
@@ -75,7 +66,6 @@ button[type="submit"] {
   color: white;
   font-size: 16px;
   cursor: pointer;
-  transition: background 0.3s ease, transform 0.2s ease;
 }
 
 button[type="submit"]:hover {

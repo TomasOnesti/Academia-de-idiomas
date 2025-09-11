@@ -13,12 +13,12 @@
         <nav class="contener">
             <img class="logo" src="./Img/logo_academia_idiomas.png" alt="Logo">
             <div class="cont_text_nav">
-                <a href="./index.html" class="vinculo"><p class="texto_nav margen_nav">Inicio</p></a>
+                <a href="#" class="vinculo"><p class="texto_nav margen_nav">Inicio</p></a>
                 <a href="" class="vinculo"><p class="texto_nav margen_nav">Idiomas</p></a>
                 <a href="" class="vinculo"><p class="texto_nav margen_nav">Nosotros</p></a>
                 <a href="" class="vinculo"><p class="texto_nav margen_nav">Contacto</p></a>     
             </div>
-            <button class="boton_nav"><a class="vinculo texto_nav" href="./paginas/Login.html">Iniciar Sesion</a></button>
+            <button class="boton_nav"><a class="vinculo texto_nav" href="./paginas/Login.php">Iniciar Sesion</a></button>
         </nav>
     </header>
     <main>
@@ -28,7 +28,7 @@
                 <div>
                     <p class="texto">La mayor academia de idioma del mundo, quieres <br> aprender idiomas para hacer turismo, pasatiempo, etc. <br> solo tienes que unírtenos.</p>
                 </div>
-                <button class="boton">UNIRSE</button>
+               <a href="./paginas/buscador.html"> <button class="boton" >UNIRSE</button></a>
             </div>
             <div class="cont_img">
                 <img class="img" src="./Img/muestra.png" alt="Muestra_1">

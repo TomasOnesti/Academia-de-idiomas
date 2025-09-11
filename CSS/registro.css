@@ -67,14 +67,6 @@ h1 {
   transition: box-shadow 0.3s ease;
 }
 
-.grid-form input:focus {
-  outline: none;
-  box-shadow: 0 0 8px #2C4DFF;
-}
-
-.grid-form input::placeholder {
-  color: #a0b3cc;
-}
 
 .full-width {
   grid-column: span 3;
